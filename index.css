@@ -2,6 +2,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Montserrat";
+  color: #282828;
+
 }
 
 header {
@@ -10,11 +12,16 @@ header {
 
 ul{
   display: flex;
-  flex-direction: row;
   color: whitesmoke;
   padding: 25px;
   list-style-type: none;
   margin: 0;
+  align-items: center;
+  gap: 10px;
+}
+
+li {
+  cursor: pointer;
 }
 
 .logo {
@@ -25,7 +32,6 @@ ul{
 
 .icon {
   width: 25px;
-  margin-left: 15px;
 }
 
 h1 {
@@ -40,4 +46,8 @@ h1 {
 
 .item-img {
   width: 100%;
+}
+
+.align-right {
+  margin-left: auto;
 }

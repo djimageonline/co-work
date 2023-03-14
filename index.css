@@ -3,7 +3,6 @@ body {
   padding: 0;
   font-family: "Montserrat";
   color: #282828;
-
 }
 
 header {
@@ -42,10 +41,15 @@ h1 {
 
 .caption {
   margin: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 .item-img {
   width: 100%;
+  display: block;
+
 }
 
 .item {
@@ -63,4 +67,32 @@ h1 {
   background-color: #cd6859;
   color: whitesmoke;
   opacity: 0.8;
+}
+
+button {
+  border: none;
+  background-color: #cd6859;
+  color: whitesmoke;
+  padding: 10px 15px;
+  font-weight: 700;
+  margin: auto;
+  cursor: pointer;
+}
+
+.chatbox-bg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px #999;
+  display: flex;
+  background-color: orange;
+  position: fixed;
+  right:6px;
+  bottom: 6px;;
+}
+
+.chatbox-img {
+  width: 50%;
+  margin: auto;
 }
